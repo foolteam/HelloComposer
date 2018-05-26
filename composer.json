@@ -1,0 +1,25 @@
+{
+    "name": "foolteam/hellocomposer",
+    "type": "library",
+    "description": "Hello Composer. Only For Test.",
+    "keywords": ["test"],
+    "homepage": "https://github.com/foolteam",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FoolTeam",
+            "email": "foolteam@qq.com",
+            "homepage": "https://github.com/foolteam"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloComposer\\": "src/"
+        }
+    }
+}
